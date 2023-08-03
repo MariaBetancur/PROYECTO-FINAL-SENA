@@ -1,0 +1,56 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-Client6 {
+  width: 2.0986328125em;
+}
+
+.icon-Client5 {
+  width: 2.0986328125em;
+}
+
+.icon-Client4 {
+  width: 2.0986328125em;
+}
+
+.icon-Client3 {
+  width: 2.0986328125em;
+}
+
+.icon-Client2 {
+  width: 2.0986328125em;
+}
+
+.icon-Client1 {
+  width: 2.0986328125em;
+}
+
+.icon-Grupo3 {
+  width: 2.25em;
+}
+
+.icon-Group1 {
+  width: 2.25em;
+}
+
+.icon-Group2 {
+  width: 2.25em;
+}
+
+.icon-Grupo4 {
+  width: 2.1591796875em;
+}

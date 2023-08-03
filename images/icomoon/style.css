@@ -1,0 +1,64 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-telfono-inteligente {
+  width: 0.625em;
+}
+
+.icon-sobre-activable {
+  width: 1.3330078125em;
+}
+
+.icon-Cliente-6 {
+  width: 2.1357421875em;
+}
+
+.icon-Cliente-5 {
+  width: 2.1484375em;
+}
+
+.icon-Cliente-4 {
+  width: 2.1484375em;
+}
+
+.icon-Cliente-3 {
+  width: 2.1484375em;
+}
+
+.icon-Cliente-2 {
+  width: 2.1484375em;
+}
+
+.icon-Cliente-1 {
+  width: 2.1357421875em;
+}
+
+.icon-Grupo3 {
+  width: 2.25em;
+}
+
+.icon-Group1 {
+  width: 2.25em;
+}
+
+.icon-Group2 {
+  width: 2.25em;
+}
+
+.icon-Grupo4 {
+  width: 2.1591796875em;
+}
