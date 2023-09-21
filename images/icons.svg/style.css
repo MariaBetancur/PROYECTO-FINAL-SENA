@@ -15,28 +15,36 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
-.icon-Client6 {
-  width: 2.0986328125em;
+.icon-telfono-inteligente {
+  width: 0.625em;
 }
 
-.icon-Client5 {
-  width: 2.0986328125em;
+.icon-sobre-activable {
+  width: 1.3330078125em;
 }
 
-.icon-Client4 {
-  width: 2.0986328125em;
+.icon-Cliente-6 {
+  width: 2.1357421875em;
 }
 
-.icon-Client3 {
-  width: 2.0986328125em;
+.icon-Cliente-5 {
+  width: 2.1484375em;
 }
 
-.icon-Client2 {
-  width: 2.0986328125em;
+.icon-Cliente-4 {
+  width: 2.1484375em;
 }
 
-.icon-Client1 {
-  width: 2.0986328125em;
+.icon-Cliente-3 {
+  width: 2.1484375em;
+}
+
+.icon-Cliente-2 {
+  width: 2.1484375em;
+}
+
+.icon-Cliente-1 {
+  width: 2.1357421875em;
 }
 
 .icon-Grupo3 {

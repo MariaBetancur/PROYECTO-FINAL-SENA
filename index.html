@@ -56,48 +56,42 @@
   <main>
     <!--TÍTULO  -->
     <section class="box-solutions">
-      <h1 class="title-solutions">TODO LO QUE NECESITA EN UNIFORMES PARA ESTUDIANTES</h1>
-      <button class="button-solutions" type="button">
-        Visitenos
+    <h1 class="title-solutions">TODO LO QUE NECESITA EN UNIFORMES PARA ESTUDIANTES</h1>
+    <button class="button-solutions" type="button" id="open-modal-button">Visitenos</button>
+  </section>
+  <div class="backdrop is-hidden" data-modal-lc id="modal">
+    <div class="modal-map">
+      <!-- Contenido de la ventana modal -->
+      <button class="modal__close-btn" data-modal-close-lc type="button" title="">
+        <svg class="modal__icon-close">
+          <use href="/images/icomoon/icons.svg#icon-close-btn-mob"></use>
+        </svg>
       </button>
-    </section>
+      <p class="modal__title">We will be glad to see you</p>
+      <div class="modal__map">
+        <iframe
+          class="modal__google-maps"
+          src="https://www.google.com/maps/place/Cl.+8+%238-55,+Chinchin%C3%A1,+Caldas/@4.9830603,-75.6030173,17z/data=!3m1!4b1!4m5!3m4!1s0x8e477bf5fb9d4b6f:0x4c6cd4da7c28a148!8m2!3d4.9830603!4d-75.6030173?entry=ttu"
+          style="border: 0"
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
+      </div>
+      <p class="modal__adress">Cl. 8 #8-55, Chinchiná, Caldas, Colombia</p>
+      <button class="modal_map-btn" type="button" title="">
+        <a
+          target="_blank"
+          rel="noreferrer noopener nofollow"
+          href="https://www.google.com/maps/place/Cl.+8+%238-55,+Chinchin%C3%A1,+Caldas/@4.9830603,-75.6030173,17z/data=!3m1!4b1!4m5!3m4!1s0x8e477bf5fb9d4b6f:0x4c6cd4da7c28a148!8m2!3d4.9830603!4d-75.6030173?entry=ttu"
+          class="modal_btn-text"
+          >Open in Google Maps</a
+        >
+      </button>
+    </div>
+  </div>
 
    
-    <!-- <section class="container container-paragraph">
-      <ul class="paragrah-label">
-        <li class="paragraph">
-          <!-- <svg class="paragraph-svg" width="270" height="120">
-            <use href="./images/icons.svg#icon-antenna"></use> -->
-          <!-- </svg> -->
-          <!-- <h3>¿QUIENES SOMOS?</h3>
-          <p>
-            Somos uno de los primeros almacenes en el municipio de Chinchiná en tener toda la oferta de uniformes 
-            escolares y complementos  que estudiantes y padres de familia necesitan para su vida 
-            en el colegio o su guardería.  
-          </p>
-        </li> --> 
-
-
-        <!-- <li class="paragraph">
-          <svg class="paragraph-svg" width="270" height="120">
-            <use href="./images/icons.svg#icon-diagram"></use>
-          </svg>
-          <h3>PLANIFICACION</h3>
-          <p>
-            Usted podrá observar y participar en cada fase del desarrollo y
-            aplicación de soluciones.
-          </p>
-        </li>
-        <li class="paragraph">
-          <svg class="paragraph-svg" width="270" height="120">
-            <use href="./images/icons.svg#icon-astronaut"></use>
-          </svg>
-          <h3>TEGNOLOGÍA MODERNA</h3>
-          <p>
-            Usamos herramientas innovadoras para resolver las tareas asignadas.
-            Es hora de simplificar los procesos laborales.
-          </p>
-        </li> -->
+   
       </ul>
     </section>
 
@@ -131,191 +125,13 @@
         </div>
 
         <div class="footer-picture">
-          <img src="./images/images3.jpg" alt="tablet" width="370" />
+          <img src="./images/images23.jpg" alt="tablet" width="370" />
           <p>VARIEDADES</p>
         </div>
       </ul>
     </section>
 
-    <!-- NUESTRO EQUIPO. -->
-    <!-- <section class="our-team">
-      <div class="container">
-        <h2 class="title-h2">Nuestro Equipo</h2>
-        <ul class="social-media-our-team-l">
-          <li class="our-team-image">
-            <img src="./images/images4.jpg" alt="Andres cubo" width="270" />
-            <h3>Andrés Cubo</h3>
-            <p class="our-team-p">Diseñador de Productos</p>
-           <ul class="social-media-our-team-list">
-            <li class="social-media-our-team">
-            <svg class="svg-our-team" width="24" height="24">
-              <use href="./images/icons.svg#icon-instagram"></use>
-            </svg>
-            </li>
-            <li class="social-media-our-team">
-            <svg class="svg-our-team" width="20" height="20">
-              <use href="./images/icons.svg#icon-twitter"></use>
-            </svg>
-            </li>
-            <li class="social-media-our-team">
-            <svg class="svg-our-team" width="20" height="20">
-              <use href="./images/icons.svg#icon-facebook"></use>
-            </svg>
-            </li>
-            <li class="social-media-our-team">
-            <svg class="svg-our-team" width="20" height="20">
-              <use href="./images/icons.svg#icon-linkedin"></use>
-            </svg>
-            </li>
-          </li>
-          </ul>
-          <li class="our-team-image">
-            <img src="./images/images5.jpg" alt="Carla palacios" width="270" />
-            <h3>Carla Palacios</h3>
-            <p class="our-team-p">Desarrolladora Frontend</p>
-            <ul class="social-media-our-team-list">
-            <li class="social-media-our-team">
-            <svg class="svg-our-team" width="24" height="24">
-              <use href="./images/icons.svg#icon-instagram"></use>
-            </svg>
-            </li>
-            <li class="social-media-our-team">
-            <svg class="svg-our-team" width="20" height="20">
-              <use href="./images/icons.svg#icon-twitter"></use>
-            </svg>
-            </li>
-            <li class="social-media-our-team">
-            <svg class="svg-our-team" width="20" height="20">
-              <use href="./images/icons.svg#icon-facebook"></use>
-            </svg>
-            </li>
-            <li class="social-media-our-team">
-            <svg class="svg-our-team" width="20" height="20">
-              <use href="./images/icons.svg#icon-linkedin"></use>
-            </svg>
-            </li>
-          </li>
-          </ul>
-
-          <li class="our-team-image">
-            <img src="./images/images6.jpg" alt="Mario Dorado" width="270" />
-            <h3>Mario Dorado</h3>
-            <p class="our-team-p">Marketing</p>
-             <ul class="social-media-our-team-list">
-            <li class="social-media-our-team">
-            <svg class="svg-our-team" width="24" height="24">
-              <use href="./images/icons.svg#icon-instagram"></use>
-            </svg>
-            </li>
-            <li class="social-media-our-team">
-            <svg class="svg-our-team" width="20" height="20">
-              <use href="./images/icons.svg#icon-twitter"></use>
-            </svg>
-            </li>
-            <li class="social-media-our-team">
-            <svg class="svg-our-team" width="20" height="20">
-              <use href="./images/icons.svg#icon-facebook"></use>
-            </svg>
-            </li>
-            <li class="social-media-our-team">
-            <svg class="svg-our-team" width="20" height="20">
-              <use href="./images/icons.svg#icon-linkedin"></use>
-            </svg>
-            </li>
-          </li>
-          </ul>
-
-          <li class="our-team-image">
-            <img src="./images/images7.jpg" alt="Pablo Mijangos" width="270" />
-            <h3>Pablo Mijangos</h3>
-            <p class="our-team-p">Diseñador IU</p>
-             <ul class="social-media-our-team-list">
-            <li class="social-media-our-team">
-            <svg class="svg-our-team" width="24" height="24">
-              <use href="./images/icons.svg#icon-instagram"></use>
-            </svg>
-            </li>
-            <li class="social-media-our-team">
-            <svg class="svg-our-team" width="20" height="20">
-              <use href="./images/icons.svg#icon-twitter"></use>
-            </svg>
-            </li>
-            <li class="social-media-our-team">
-            <svg class="svg-our-team" width="20" height="20">
-              <use href="./images/icons.svg#icon-facebook"></use>
-            </svg>
-            </li>
-            <li class="social-media-our-team">
-            <svg class="svg-our-team" width="20" height="20">
-              <use href="./images/icons.svg#icon-linkedin"></use>
-            </svg>
-            </li>
-          </li>
-          </ul>
-          </ul>
-      </div>
-    </section> -->
-    <!-- <section>
-      <div class="container-Regular-customers">
-        <h2 class="title-h2">Clientes Regulares</h2>
-          <ul>
-            <li class="svg-regular-customers">
-          <svg
-            class="Regular-customers-icons"
-            width="41"
-            height="46"
-          >
-            <use href="./images/icons.svg#icon-Client-1"></use>
-          </svg>
-          </li>
-          <li class="svg-regular-customers">
-          <svg
-            class="Regular-customers-icons"
-            width="40"
-            height="52"
-          >
-            <use href="./images/icons.svg#icon-Client-2"></use>
-          </svg>
-          </li>
-          <li class="svg-regular-customers">
-          <svg
-            class="Regular-customers-icons"
-            width="43"
-            height="41"
-          >
-            <use href="./images/icons.svg#icon-Client-3"></use>
-          </svg>
-          </li>
-          <li class="svg-regular-customers">
-          <svg
-            class="Regular-customers-icons"
-            width="84"
-            height="40"
-          >
-            <use href="./images/icons.svg#icon-Client-4"></use>
-          </svg>
-          </li>
-          <li class="svg-regular-customers">
-          <svg
-            class="Regular-customers-icons"
-            width="62"
-            height="45"
-          >
-            <use href="./images/icons.svg#icon-Client-5"></use>
-          </svg>
-          </li>
-          <li class="svg-regular-customers">
-          <svg
-            class="Regular-customers-icons"
-            width="93"
-            height="43"
-          >
-            <use href="./images/icons.svg#icon-Client-6"></use>
-          </svg>
-          </li>
-          </ul>
-      </div>
-    </section> -->
+    
   </main>
 
   <footer class="footer">
@@ -325,7 +141,7 @@
         <ul>
             <a
               class="address"
-              href="https://goo.gl/maps/mLAYXYwiVkXECtXK9"
+              href="https://maps.app.goo.gl/ZRaRNBQDhTZXoaAQA"
               rel="noopener noreferrer"
               target="_blank"
               >Cl. 8 #8-55, Chinchiná, Caldas, Colombia</a
@@ -341,42 +157,11 @@
               >+576068401220</a
             >
           </li>
-          <!-- <ul>
-            <p>ENCUENTRENOS EN</p>
-             <li class="list-found-at" >
-              <a href="#"> 
-              <svg class="icon-found-at" width="20" height="20">
-              <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-              </a>
-            </li>
-
-             <li class="list-found-at">
-              <a href="#"> 
-              <svg class="icon-found-at" width="20" height="20">
-              <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-              </a>
-            </li>
-
-             <li class="list-found-at">
-              <a href="#"> 
-              <svg class="icon-found-at" width="20" height="20">
-              <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-              </a>
-            </li>
-           <li class="list-found-at">
-             <a href="#">
-             <svg class="icon-found-at" width="20" height="20">
-              <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
-              </a>    
-            </li>
-          </ul> -->
+          
         </ul>
       </address>
     </div>
   </footer>
+   <script src="./modal.js"></script>
 </body>
 
