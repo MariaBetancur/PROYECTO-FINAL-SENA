@@ -59,15 +59,47 @@
 
     <main>
       <section >
-        <div class="container">
-        <h1 hidden>Mi portfolio</h1>
-        <ul class="button-my-potfolio">
-          <li>
-            <button class="button-portfolio current" type="button">Todo</button>
+      <div class="container">
+    <h1 hidden>Mi portfolio</h1>
+    <ul class="button-my-potfolio">
+      <li>
+        <button class="button-portfolio current" type="button">Todo</button>
+      </li>
+      <li>
+        <button class="button-portfolio" type="button" id="open-modal-button">Contáctenos</button>
+      </li>
+    </ul>
+    <!-- Ventana Modal -->
+    <div class="backdrop is-hidden" data-modal-lc id="modal">
+      <div class="modal-map">
+        <!-- Contenido de la ventana modal -->
+        <button class="modal__close-btn" data-modal-close-lc type="button" title="">
+          <svg class="modal__icon-close">
+            <use href="/images/icomoon/icons.svg#icon-close-btn-mob"></use>
+          </svg>
+        </button>
+        <ul class="section-contacts">
+          <li class="section-contacts__item is-hidden">
+            <div class="section-contacts__text">
+              <p class="section-contacts__place thow">VARIEDADES VILLAHERMOSA</p>
+              <h1 class="section-contacts__subtitle">Chinchiná</h1>
+              <p>Será un placer atenderle</p>
+            </div>
+            <div class="section-contacts__schedule">
+              <h1 class="section-contacts__subtitle">Lunes a Sábado</h1>
+              <span class="section-contact__time-information">09:00 AM - 12:00 PM</span>
+              <span class="section-contact__time-information">02:00 PM - 07:00 PM</span>
+            </div>
+            <div class="section-contacts__contacts">
+              <a href="tel:+61038766284" class="section-contacts__contact">+576068401220</a>
+              <a href="mailto:jupaherva53@hotmail.com" class="section-contacts__contact">jupaherva53@hotmail.com</a>
+            </div>
           </li>
-          <li>
-            <button class="button-portfolio" type="button">Contactenos</button>
-          </li>
+        </ul>
+        <!-- Fin del contenido de contacto dentro de la ventana modal -->
+      </div>
+    </div>
+    <!-- Fin de la Ventana Modal -->
           
         </ul>
         <ul class="container-portfolio">
@@ -213,5 +245,6 @@
       </address>
     </div>
   </footer>
+  <script src="./modal.js"></script>
   </body>
 </html>

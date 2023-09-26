@@ -176,7 +176,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 600px;
+  height: 400px;
   background-image: linear-gradient(to bottom, #01012166, #00000666);
   background-size: 1200px;
   gap: 50px;
@@ -703,7 +703,7 @@ p {
   transform: translate(-50%, -50%);
   z-index: 99;
   max-width: 450px;
-  height: 610px;
+  height: 500px;
   border: 3px solid #ffb8ca;
   background-color: #fff;
   border-radius: 4px;
@@ -723,11 +723,11 @@ p {
   max-width: 30px;
   max-height: 30px;
   border: 1px solid #ffb8ca;
-  border-radius: 50%;#ffb8ca
+  border-radius: 50%;
   background-color: #fff;
   transition: all linear 250ms;
   &:hover {
-    background-color:#ffb8ca;
+    background-color: #ffb8ca;
   }
 }
 .modal__icon-close {
@@ -751,7 +751,7 @@ p {
   border: 2px solid #ffb8ca;
   border-radius: 4px;
   max-width: 370px;
-  height: 410px;
+  height: 300px;
   margin-bottom: 20px;
 }
 .modal__adress {
@@ -791,4 +791,109 @@ p {
 .modal__google-maps {
   width: 100%;
   height: 100%;
+}
+
+/* modal contactenos */
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+.section-contacts__title.hidden {
+  margin-top: -110px;
+  display: flex;
+  box-shadow: #757575;
+  border-color: #757575;
+  border-radius: 10px;
+}
+.section-contacts {
+  margin: auto;
+  background-color: white;
+}
+.section-contacts > .conta {
+  margin: auto;
+  padding: 0 50px;
+}
+.section-contacts__place.thow {
+  width: 200px;
+  color: white;
+  font-size: 500;
+  background-color: #f0d1a5;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-bottom: 25px;
+}
+.section-contacts__item {
+  z-index: 20;
+  background-color: #fff;
+  border-radius: 24px;
+  flex-direction: column;
+  padding: 43px 20px;
+  transition: all 0.3s linear;
+  display: flex;
+  box-shadow: 0 8px 30px rgba(212, 20, 67, 0.1);
+  .contact-item-one &:hover {
+    box-shadow: grey;
+    cursor: pointer;
+  }
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  &:last-child {
+    margin-bottom: 54px;
+  }
+}
+
+.section-contacts__subtitle {
+  font-family: sans;
+  letter-spacing: -spacing;
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 10px;
+}
+.section-contacts__subtitle.day {
+  margin-bottom: 0px;
+}
+.section-contacts__text {
+  font-family: sans;
+  letter-spacing: -spacing;
+  line-height: 23px;
+  font-size: 12px;
+  font-weight: -weight;
+  color: black;
+  padding-bottom: 25px;
+  border-bottom: 1px solid green;
+  margin-bottom: 25px;
+}
+.section-contact__time-information {
+  font-family: sans;
+  letter-spacing: -spacing;
+  line-height: 186%;
+  font-size: 12px;
+  font-weight: 600;
+  color: pink;
+  margin-bottom: 10px;
+}
+.section-contacts__schedule {
+  padding-bottom: 25px;
+  border-bottom: 1px solid green;
+  margin-bottom: 25px;
+}
+.section-contacts__contact {
+  font-family: sans;
+  letter-spacing: -spacing;
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: 500;
+  color: grey;
+  text-decoration: none;
+  flex-direction: column;
+  display: flex;
 }
