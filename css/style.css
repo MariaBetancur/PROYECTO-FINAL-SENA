@@ -176,7 +176,6 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 400px;
   background-image: linear-gradient(to bottom, #01012166, #00000666);
   background-size: 1200px;
   gap: 50px;
